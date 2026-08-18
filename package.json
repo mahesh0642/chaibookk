@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "better-auth": "^1.7.0"
+    "@types/cors": "^2.8.19",
+    "@types/multer": "^2.2.0",
+    "better-auth": "^1.7.0",
+    "cors": "^2.8.6",
+    "multer": "^2.2.0",
+    "zod": "^4.4.3"
   }
 }
