@@ -5,8 +5,6 @@ import type {
     Response,
 } from "express";
 
-
-
 type AsyncRequestHandler = (
     req: Request,
     res: Response,
