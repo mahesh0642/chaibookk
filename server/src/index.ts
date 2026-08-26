@@ -10,7 +10,7 @@ import { errorHandler } from "./middleware/error-handler.middleware.js";
 const app = express();
 const PORT = process.env.PORT;
 const clientUrl = process.env.CLIENT_URL ?? "http://localhost:3001";
-
+console.logg('mahesh');
 app.use(
     cors({
         origin: clientUrl,
